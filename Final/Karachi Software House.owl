@@ -1,0 +1,990 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/hp/ontologies/2021/2/untitled-ontology-9"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/hp/ontologies/2021/2/untitled-ontology-9">
+    <Prefix name="" IRI="http://www.semanticweb.org/hp/ontologies/2021/2/untitled-ontology-9"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#A2Z_Creators"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Access_Group"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Aekpani_Networks"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Application_Development"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Area"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Avanceon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Avanza_Solutions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BPO"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BestHive"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Business_Intelligence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Business_Management"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CRM"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cybarea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Domains"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ERP_Consulting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ER_Solutions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#E_Commerce"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Edev_Techonologies"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Financial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Folio3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GCS_Pvt_Ltd"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IBM"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IT_Consultancy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IT_Services"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kolachi_Technologies"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lakson_Busniess_Solutions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Location"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Name"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OraTech_Systems"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pi_Labs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pring"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SEO"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Security_And_Surveillance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Server4Sale"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Social_Media_Marketing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Softech_Worldwide"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Software_House"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Software_Labs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Software_Services"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Startegic_Consultancy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#System_Integration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Viper_Technologies"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wallsoft"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Web_Development"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ZRG_International"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_domain_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_domain_in"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#works_in"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#is_located_in"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#started_in"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#was_launched_in"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#A2Z_Creatorz"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Access_Group"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Aekpani_Networks"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Application_Development"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Avanceon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Avanza_Solutions"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BPO"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BestHive"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Business_Intelligence"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Business_Management"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CRM"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cybarea"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ERP_Consulting"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ER_Solutions"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#E_Commerce"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Edev_Technologies"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Financial"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Folio3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GCS_Pvt_Ltd"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IBM"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IT_Consultancy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IT_Services"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kolachi_Technologies"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lakson_Busniess_Solutions"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OraTech_Systems"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pi_Labs"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pring"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SEO"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Security_And_Surveillance"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Server4Sale"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Socail_Media_Marketing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Softech_Worldwide"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Software_Labs"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Software_Services"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Strategic_Consultancy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#System_Integration"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#VIper_Technologies"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Wallsoft"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Web_Development"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ZRG_International"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#A2Z_Creators"/>
+        <Class IRI="#Name"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Access_Group"/>
+        <Class IRI="#Name"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Aekpani_Networks"/>
+        <Class IRI="#Name"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Application_Development"/>
+        <Class IRI="#Domains"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Area"/>
+        <Class IRI="#Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Avanceon"/>
+        <Class IRI="#Name"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Avanza_Solutions"/>
+        <Class IRI="#Name"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BPO"/>
+        <Class IRI="#Domains"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BestHive"/>
+        <Class IRI="#Name"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Business_Intelligence"/>
+        <Class IRI="#Domains"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Business_Management"/>
+        <Class IRI="#Domains"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CRM"/>
+        <Class IRI="#Domains"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cybarea"/>
+        <Class IRI="#Name"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Domains"/>
+        <Class IRI="#Software_House"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ERP_Consulting"/>
+        <Class IRI="#Domains"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ER_Solutions"/>
+        <Class IRI="#Name"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#E_Commerce"/>
+        <Class IRI="#Domains"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Edev_Techonologies"/>
+        <Class IRI="#Name"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Financial"/>
+        <Class IRI="#Domains"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Folio3"/>
+        <Class IRI="#Name"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GCS_Pvt_Ltd"/>
+        <Class IRI="#Name"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IBM"/>
+        <Class IRI="#Name"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IT_Consultancy"/>
+        <Class IRI="#Domains"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IT_Services"/>
+        <Class IRI="#Domains"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kolachi_Technologies"/>
+        <Class IRI="#Name"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lakson_Busniess_Solutions"/>
+        <Class IRI="#Name"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Location"/>
+        <Class IRI="#Software_House"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Name"/>
+        <Class IRI="#Software_House"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OraTech_Systems"/>
+        <Class IRI="#Name"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pi_Labs"/>
+        <Class IRI="#Name"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pring"/>
+        <Class IRI="#Name"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SEO"/>
+        <Class IRI="#Domains"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Security_And_Surveillance"/>
+        <Class IRI="#Domains"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Server4Sale"/>
+        <Class IRI="#Name"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Social_Media_Marketing"/>
+        <Class IRI="#Domains"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Softech_Worldwide"/>
+        <Class IRI="#Name"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Software_Labs"/>
+        <Class IRI="#Name"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Software_Services"/>
+        <Class IRI="#Domains"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Startegic_Consultancy"/>
+        <Class IRI="#Domains"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#System_Integration"/>
+        <Class IRI="#Domains"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Viper_Technologies"/>
+        <Class IRI="#Name"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wallsoft"/>
+        <Class IRI="#Name"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Web_Development"/>
+        <Class IRI="#Domains"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ZRG_International"/>
+        <Class IRI="#Name"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Name"/>
+        <NamedIndividual IRI="#A2Z_Creatorz"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Name"/>
+        <NamedIndividual IRI="#Access_Group"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Name"/>
+        <NamedIndividual IRI="#Aekpani_Networks"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Domains"/>
+        <NamedIndividual IRI="#Application_Development"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Name"/>
+        <NamedIndividual IRI="#Avanceon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Name"/>
+        <NamedIndividual IRI="#Avanza_Solutions"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Domains"/>
+        <NamedIndividual IRI="#BPO"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Name"/>
+        <NamedIndividual IRI="#BestHive"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Domains"/>
+        <NamedIndividual IRI="#Business_Intelligence"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Domains"/>
+        <NamedIndividual IRI="#Business_Management"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Domains"/>
+        <NamedIndividual IRI="#CRM"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Name"/>
+        <NamedIndividual IRI="#Cybarea"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Domains"/>
+        <NamedIndividual IRI="#ERP_Consulting"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Name"/>
+        <NamedIndividual IRI="#ER_Solutions"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Domains"/>
+        <NamedIndividual IRI="#E_Commerce"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Name"/>
+        <NamedIndividual IRI="#Edev_Technologies"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Domains"/>
+        <NamedIndividual IRI="#Financial"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Name"/>
+        <NamedIndividual IRI="#Folio3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Name"/>
+        <NamedIndividual IRI="#GCS_Pvt_Ltd"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Name"/>
+        <NamedIndividual IRI="#IBM"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Domains"/>
+        <NamedIndividual IRI="#IT_Consultancy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Domains"/>
+        <NamedIndividual IRI="#IT_Services"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Name"/>
+        <NamedIndividual IRI="#Kolachi_Technologies"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Name"/>
+        <NamedIndividual IRI="#Lakson_Busniess_Solutions"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Name"/>
+        <NamedIndividual IRI="#OraTech_Systems"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Name"/>
+        <NamedIndividual IRI="#Pi_Labs"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Name"/>
+        <NamedIndividual IRI="#Pring"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Domains"/>
+        <NamedIndividual IRI="#SEO"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Domains"/>
+        <NamedIndividual IRI="#Security_And_Surveillance"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Name"/>
+        <NamedIndividual IRI="#Server4Sale"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Domains"/>
+        <NamedIndividual IRI="#Socail_Media_Marketing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Name"/>
+        <NamedIndividual IRI="#Softech_Worldwide"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Name"/>
+        <NamedIndividual IRI="#Software_Labs"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Domains"/>
+        <NamedIndividual IRI="#Software_Services"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Domains"/>
+        <NamedIndividual IRI="#Strategic_Consultancy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Domains"/>
+        <NamedIndividual IRI="#System_Integration"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Name"/>
+        <NamedIndividual IRI="#VIper_Technologies"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Name"/>
+        <NamedIndividual IRI="#Wallsoft"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Domains"/>
+        <NamedIndividual IRI="#Web_Development"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Name"/>
+        <NamedIndividual IRI="#ZRG_International"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_domain_of"/>
+        <NamedIndividual IRI="#A2Z_Creatorz"/>
+        <NamedIndividual IRI="#Application_Development"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_domain_of"/>
+        <NamedIndividual IRI="#A2Z_Creatorz"/>
+        <NamedIndividual IRI="#E_Commerce"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_domain_of"/>
+        <NamedIndividual IRI="#A2Z_Creatorz"/>
+        <NamedIndividual IRI="#IT_Services"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_domain_of"/>
+        <NamedIndividual IRI="#A2Z_Creatorz"/>
+        <NamedIndividual IRI="#Software_Services"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#works_in"/>
+        <NamedIndividual IRI="#Access_Group"/>
+        <NamedIndividual IRI="#IT_Consultancy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#works_in"/>
+        <NamedIndividual IRI="#Access_Group"/>
+        <NamedIndividual IRI="#Software_Services"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_domain_of"/>
+        <NamedIndividual IRI="#Aekpani_Networks"/>
+        <NamedIndividual IRI="#Application_Development"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_domain_of"/>
+        <NamedIndividual IRI="#Aekpani_Networks"/>
+        <NamedIndividual IRI="#Business_Management"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_domain_of"/>
+        <NamedIndividual IRI="#Avanceon"/>
+        <NamedIndividual IRI="#Application_Development"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#works_in"/>
+        <NamedIndividual IRI="#Avanceon"/>
+        <NamedIndividual IRI="#Software_Services"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_domain_of"/>
+        <NamedIndividual IRI="#Avanza_Solutions"/>
+        <NamedIndividual IRI="#Application_Development"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_domain_of"/>
+        <NamedIndividual IRI="#BestHive"/>
+        <NamedIndividual IRI="#E_Commerce"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_domain_of"/>
+        <NamedIndividual IRI="#BestHive"/>
+        <NamedIndividual IRI="#Web_Development"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#works_in"/>
+        <NamedIndividual IRI="#BestHive"/>
+        <NamedIndividual IRI="#SEO"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_domain_of"/>
+        <NamedIndividual IRI="#Cybarea"/>
+        <NamedIndividual IRI="#BPO"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#works_in"/>
+        <NamedIndividual IRI="#Cybarea"/>
+        <NamedIndividual IRI="#Software_Services"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_domain_of"/>
+        <NamedIndividual IRI="#ER_Solutions"/>
+        <NamedIndividual IRI="#IT_Consultancy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#works_in"/>
+        <NamedIndividual IRI="#ER_Solutions"/>
+        <NamedIndividual IRI="#Application_Development"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_domain_of"/>
+        <NamedIndividual IRI="#Edev_Technologies"/>
+        <NamedIndividual IRI="#Software_Services"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#works_in"/>
+        <NamedIndividual IRI="#Edev_Technologies"/>
+        <NamedIndividual IRI="#Web_Development"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_domain_of"/>
+        <NamedIndividual IRI="#Folio3"/>
+        <NamedIndividual IRI="#IT_Services"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#works_in"/>
+        <NamedIndividual IRI="#Folio3"/>
+        <NamedIndividual IRI="#Business_Management"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_domain_of"/>
+        <NamedIndividual IRI="#GCS_Pvt_Ltd"/>
+        <NamedIndividual IRI="#Security_And_Surveillance"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#works_in"/>
+        <NamedIndividual IRI="#GCS_Pvt_Ltd"/>
+        <NamedIndividual IRI="#BPO"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_domain_of"/>
+        <NamedIndividual IRI="#IBM"/>
+        <NamedIndividual IRI="#ERP_Consulting"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_domain_of"/>
+        <NamedIndividual IRI="#IBM"/>
+        <NamedIndividual IRI="#Strategic_Consultancy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_domain_of"/>
+        <NamedIndividual IRI="#Kolachi_Technologies"/>
+        <NamedIndividual IRI="#Financial"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#works_in"/>
+        <NamedIndividual IRI="#Kolachi_Technologies"/>
+        <NamedIndividual IRI="#Application_Development"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_domain_of"/>
+        <NamedIndividual IRI="#Lakson_Busniess_Solutions"/>
+        <NamedIndividual IRI="#IT_Consultancy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#works_in"/>
+        <NamedIndividual IRI="#Lakson_Busniess_Solutions"/>
+        <NamedIndividual IRI="#E_Commerce"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_domain_of"/>
+        <NamedIndividual IRI="#OraTech_Systems"/>
+        <NamedIndividual IRI="#Software_Services"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#works_in"/>
+        <NamedIndividual IRI="#OraTech_Systems"/>
+        <NamedIndividual IRI="#IT_Consultancy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_domain_of"/>
+        <NamedIndividual IRI="#Pi_Labs"/>
+        <NamedIndividual IRI="#Financial"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#works_in"/>
+        <NamedIndividual IRI="#Pi_Labs"/>
+        <NamedIndividual IRI="#Business_Intelligence"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_domain_of"/>
+        <NamedIndividual IRI="#Pring"/>
+        <NamedIndividual IRI="#Application_Development"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#works_in"/>
+        <NamedIndividual IRI="#Pring"/>
+        <NamedIndividual IRI="#Socail_Media_Marketing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_domain_of"/>
+        <NamedIndividual IRI="#Server4Sale"/>
+        <NamedIndividual IRI="#IT_Consultancy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_domain_of"/>
+        <NamedIndividual IRI="#Softech_Worldwide"/>
+        <NamedIndividual IRI="#IT_Services"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#works_in"/>
+        <NamedIndividual IRI="#Softech_Worldwide"/>
+        <NamedIndividual IRI="#Application_Development"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_domain_of"/>
+        <NamedIndividual IRI="#Software_Labs"/>
+        <NamedIndividual IRI="#Business_Intelligence"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#works_in"/>
+        <NamedIndividual IRI="#Software_Labs"/>
+        <NamedIndividual IRI="#Application_Development"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_domain_of"/>
+        <NamedIndividual IRI="#VIper_Technologies"/>
+        <NamedIndividual IRI="#IT_Services"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_domain_of"/>
+        <NamedIndividual IRI="#Wallsoft"/>
+        <NamedIndividual IRI="#Financial"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_domain_of"/>
+        <NamedIndividual IRI="#Wallsoft"/>
+        <NamedIndividual IRI="#Software_Services"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_domain_of"/>
+        <NamedIndividual IRI="#ZRG_International"/>
+        <NamedIndividual IRI="#CRM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#works_in"/>
+        <NamedIndividual IRI="#ZRG_International"/>
+        <NamedIndividual IRI="#Application_Development"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is_located_in"/>
+        <NamedIndividual IRI="#A2Z_Creatorz"/>
+        <Literal>DHA</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#was_launched_in"/>
+        <NamedIndividual IRI="#A2Z_Creatorz"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2007</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is_located_in"/>
+        <NamedIndividual IRI="#BestHive"/>
+        <Literal>Shabbirabad</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#started_in"/>
+        <NamedIndividual IRI="#BestHive"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2011</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is_located_in"/>
+        <NamedIndividual IRI="#Edev_Technologies"/>
+        <Literal>Shahrah-e-Faisal</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#was_launched_in"/>
+        <NamedIndividual IRI="#Edev_Technologies"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1999</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is_located_in"/>
+        <NamedIndividual IRI="#Folio3"/>
+        <Literal>Darwaish Colony</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is_located_in"/>
+        <NamedIndividual IRI="#Kolachi_Technologies"/>
+        <Literal>Bahadur Yar Jang CHS</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is_located_in"/>
+        <NamedIndividual IRI="#Lakson_Busniess_Solutions"/>
+        <Literal>Saddar</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is_located_in"/>
+        <NamedIndividual IRI="#Pi_Labs"/>
+        <Literal>Shahrah-e-Faisal</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#started_in"/>
+        <NamedIndividual IRI="#Pi_Labs"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2014</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is_located_in"/>
+        <NamedIndividual IRI="#Softech_Worldwide"/>
+        <Literal>Shahrah-e-Faisal</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#was_launched_in"/>
+        <NamedIndividual IRI="#Softech_Worldwide"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1987</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is_located_in"/>
+        <NamedIndividual IRI="#Software_Labs"/>
+        <Literal>Nazimabad No. 1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#was_launched_in"/>
+        <NamedIndividual IRI="#Software_Labs"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1986</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is_located_in"/>
+        <NamedIndividual IRI="#Wallsoft"/>
+        <Literal>Saddar</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#was_launched_in"/>
+        <NamedIndividual IRI="#Wallsoft"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1990</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is_located_in"/>
+        <NamedIndividual IRI="#ZRG_International"/>
+        <Literal>PECHS</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#started_in"/>
+        <NamedIndividual IRI="#ZRG_International"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1994</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#works_in"/>
+        <ObjectProperty IRI="#has_domain_of"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#has_domain_of"/>
+        <ObjectProperty IRI="#is_domain_in"/>
+    </InverseObjectProperties>
+    <FunctionalObjectProperty>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </FunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </InverseFunctionalObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </AsymmetricObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </TransitiveObjectProperty>
+    <ReflexiveObjectProperty>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </ReflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </IrreflexiveObjectProperty>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#started_in"/>
+        <DataProperty IRI="#was_launched_in"/>
+    </SubDataPropertyOf>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#was_launched_in"/>
+    </FunctionalDataProperty>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
