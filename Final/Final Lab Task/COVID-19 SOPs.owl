@@ -1,0 +1,226 @@
+@prefix : <http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-10#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-10> .
+
+<http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-10> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-10#is
+:is rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-10#should
+:should rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-10#should_avoid
+:should_avoid rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-10#should_follow
+:should_follow rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-10#should_take
+:should_take rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-10#should_wear
+:should_wear rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-10#wears
+:wears rdf:type owl:ObjectProperty .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-10#maintain_distance_of
+:maintain_distance_of rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-10#should_stay_at
+:should_stay_at rdf:type owl:DatatypeProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-10#COVID_19_SOPs
+:COVID_19_SOPs rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-10#Distance
+:Distance rdf:type owl:Class ;
+          rdfs:subClassOf :Entities .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-10#Entities
+:Entities rdf:type owl:Class ;
+          rdfs:subClassOf :COVID_19_SOPs .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-10#He
+:He rdf:type owl:Class ;
+    rdfs:subClassOf :Person .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-10#Mask
+:Mask rdf:type owl:Class ;
+      rdfs:subClassOf :Entities .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-10#Medicine
+:Medicine rdf:type owl:Class ;
+          rdfs:subClassOf :Entities .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-10#Meet_Up
+:Meet_Up rdf:type owl:Class ;
+         rdfs:subClassOf :Entities .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-10#Person
+:Person rdf:type owl:Class ;
+        rdfs:subClassOf :COVID_19_SOPs .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-10#Place
+:Place rdf:type owl:Class ;
+       rdfs:subClassOf :Entities .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-10#She
+:She rdf:type owl:Class ;
+     rdfs:subClassOf :Person .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-10#Water
+:Water rdf:type owl:Class ;
+       rdfs:subClassOf :Entities .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-10#We
+:We rdf:type owl:Class ;
+    rdfs:subClassOf :Person .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-10#All_COVID_SOPs
+:All_COVID_SOPs rdf:type owl:NamedIndividual ,
+                         :Entities .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-10#Covid_Negative
+:Covid_Negative rdf:type owl:NamedIndividual ,
+                         :She .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-10#Covid_Positive
+:Covid_Positive rdf:type owl:NamedIndividual ,
+                         :He .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-10#Hand_Shake
+:Hand_Shake rdf:type owl:NamedIndividual ,
+                     :Meet_Up .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-10#He
+:He rdf:type owl:NamedIndividual ,
+             :Person ;
+    :is :Covid_Positive ;
+    :should_avoid :Hand_Shake ;
+    :should_follow :All_COVID_SOPs ;
+    :should_stay_at "Home" .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-10#Home
+:Home rdf:type owl:NamedIndividual ,
+               :Place .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-10#Ibuprofen
+:Ibuprofen rdf:type owl:NamedIndividual ,
+                    :Medicine .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-10#K-60
+:K-60 rdf:type owl:NamedIndividual ,
+               :Mask .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-10#N-92
+:N-92 rdf:type owl:NamedIndividual ,
+               :Mask .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-10#N-97
+:N-97 rdf:type owl:NamedIndividual ,
+               :Mask .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-10#Paracetamol
+:Paracetamol rdf:type owl:NamedIndividual ,
+                      :Medicine .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-10#Quarantine
+:Quarantine rdf:type owl:NamedIndividual ,
+                     :Place .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-10#Rashid
+:Rashid rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-10#Salman
+:Salman rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-10#Sameer
+:Sameer rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-10#She
+:She rdf:type owl:NamedIndividual ,
+              :Person ;
+     :is :Covid_Negative ;
+     :should_avoid :Hand_Shake ;
+     :should_wear :N-97 ;
+     :maintain_distance_of "6 feet" .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-10#Waleed
+:Waleed rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-10#Wash_Hands
+:Wash_Hands rdf:type owl:NamedIndividual ,
+                     :Water .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-10#We
+:We rdf:type owl:NamedIndividual ,
+             :Person ;
+    :should :Wash_Hands ;
+    :should_follow :All_COVID_SOPs ;
+    :should_take :Paracetamol ;
+    :should_wear :N-92 ;
+    :maintain_distance_of "6 feet" .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
